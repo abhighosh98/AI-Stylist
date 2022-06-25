@@ -29,3 +29,7 @@ created from the polyvore data set (https://github.com/xthan/polyvore-dataset).
 
 # Demo
 You can look at a detailed demo and explanation at https://www.youtube.com/watch?v=FxtAqArTaSI
+
+# Authors
+* Abhishek Ghoshal : [abhighosh98](https://github.com/abhighosh98)
+* Rohit Palakodeti : 
