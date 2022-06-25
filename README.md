@@ -19,3 +19,9 @@ AI Stylist is for people with color blindness which will help them select clothe
 ![Color recognition](https://drive.google.com/uc?export=view&id=1cO6l_gALSW7XZSeIS9KHI7uiqMKDAGVE)
 
 In the image, the user showed a specific color using a phone display. The recognised color is shown below the camera feed. 
+
+* Module for recognising the clothing item: This module will be run when the user is building their wardrobe by adding new clothes to their digital wardrobe. It captures an image of the clothing item when the user clicks a button. The Google Vision API is then called which returns the tags of the objects detected in the image. We search for specific clothing related tags within these to get matches for our use case. Along with this, the API also returns bounding box crops which come from its object localization API. This helps to get the clothing item into focus and crop it out from the rest of the image. This cropped out image is then run through the color detection module which returns the color of the clothing item. The clothing tag and this color are then uploaded to Firestore along with a GCS bucket link to where the image is uploaded.
+
+![Clothing recognition](https://drive.google.com/uc?export=view&id=17xHsoAguAlOIVxz5IAO3iRk8koDHpQgS)
+
++
