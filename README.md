@@ -24,4 +24,8 @@ In the image, the user showed a specific color using a phone display. The recogn
 
 ![Clothing recognition](https://drive.google.com/uc?export=view&id=17xHsoAguAlOIVxz5IAO3iRk8koDHpQgS)
 
-+
+* ML model for recommending clothes: This module recommends and pairs clothing items for the users from their digital wardrobe. An XGBoost model is fit to a dataset
+created from the polyvore data set (https://github.com/xthan/polyvore-dataset). 
+
+# Demo
+You can look at a detailed demo and explanation at https://www.youtube.com/watch?v=FxtAqArTaSI
